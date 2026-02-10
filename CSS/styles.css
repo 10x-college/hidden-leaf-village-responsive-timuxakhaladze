@@ -1,0 +1,95 @@
+.main-header {
+    background-color: rgba(255, 107, 26, 1);
+    width: 375px;
+    height: 130px;
+    /* display: flex; */
+    margin: 0;
+
+}
+
+.logo {
+    width: 24px;
+    height: 20.2px;
+    margin-top: 46px;
+    margin-left: 28px;
+
+
+}
+.heatexts{
+    display: flex;
+    flex-direction: column;
+    margin-top:  25px;
+
+
+
+}
+.header-title{
+    color: rgba(255, 255, 255, 1);
+    width: 228px;
+    height: 29px;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    margin: auto;
+
+
+
+
+
+
+}
+
+.header-text{
+
+    color:rgba(255, 255, 255, 1);
+    width: 290px;
+    height: 17px;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+.navigation {
+    width: 375px;
+    height: 71px;
+    background-color:rgba(26, 26, 26, 1);
+    box-sizing: border-box;
+    position: fixed;
+
+}
+.buton {
+    width: 103px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: rgba(255, 107, 26, 1);
+    margin-left: 12px;
+    margin-top: 17px;
+    display: flex;
+    justify-content:space-around;
+    
+    
+
+
+}
+.vector {
+    display: flex;
+    flex-direction: column;
+    width: 17px;
+    height: 14px;
+    margin-top: 11px;
+    /* margin-left: 1px; */
+
+}
+.manu {
+    width: 51px;
+    height: 33px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+    margin-right: 13px;
+    margin-top: 5px;
+    
+
+
+}
+
+    
