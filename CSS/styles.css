@@ -1,0 +1,330 @@
+body{
+    padding: 3px;
+    
+
+}
+
+
+
+.main-header {
+    background-color: rgba(255, 107, 26, 1);
+    width: 375px;
+    height: 130px;
+    margin: 0;
+
+}
+
+.logo {
+    width: 24px;
+    height: 20.2px;
+    margin-top: 46px;
+    margin-left: 28px;
+
+
+}
+.heatexts{
+    display: flex;
+    flex-direction: column;
+    margin-top:  25px;
+
+
+
+}
+.header-title{
+    color: rgba(255, 255, 255, 1);
+    width: 228px;
+    height: 29px;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+
+
+
+
+.header-text{
+
+    color:rgba(255, 255, 255, 1);
+    width: 290px;
+    height: 17px;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+.navigation {
+    width: 375px;
+    height: 71px;
+    background-color:rgba(26, 26, 26, 1);
+    display: flex;
+    align-items: center;
+
+}
+.buton {
+    width: 103px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: rgba(255, 107, 26, 1);
+    margin-left: 12px;
+    display: flex;
+    justify-content:space-around;
+    
+    
+    
+
+
+}
+.vector {
+    display: flex;
+    flex-direction: column;
+    width: 17px;
+    height: 14px;
+    margin-top: 11px;
+
+}
+.manu {
+    width: 51px;
+    height: 33px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+    margin-right: 13px;
+    margin-top: 5px;
+    
+
+
+}
+.main {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 377px;
+    background-color: rgba(42, 42, 42, 0.9);
+    position: relative;
+    
+}
+.kahlogo {
+    width: 151px;
+    height: 126.98px;
+    color: rgba(86, 141, 15, 1);
+    position: relative;
+    z-index: -1;
+
+}
+
+.text-box {
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 20;
+
+}
+.maintext {
+    font-size: 24px;
+    font-style: bold;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.smailmaintext {
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.9) ;
+    text-align: center;
+}
+
+.section {
+    width: 375px;
+    height: 1549px;
+    background-color:rgba(245, 245, 245, 1) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+    /* row-gap: 39px; */
+}
+p {
+    color:rgba(102, 102, 102, 1) ;
+    font-size: 16px;
+    margin:24px ;
+}
+.artikuli {
+    width: 324px;
+    height: 200px;
+    border-radius: 12px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-top: 4px solid rgba(255, 107, 26, 1);
+    box-shadow: 0px 2px 8px 0 px rgba(0, 0, 0, 0.1);
+}
+.firsthead {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 1);
+}
+.smallogo {
+    width: 24px;
+    height: 24px;
+}
+.onehead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+    gap: 3px;
+}
+.desktopbar {
+    display: none;
+
+}
+.end {
+    width:373px ;
+    height: 90px;
+    background-color: rgba(26, 26, 26, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+    
+@media (min-width: 768px) {
+
+.main-header {
+    background-color: rgba(255, 107, 26, 1);
+    width: 1924px;
+    height: 200px;
+    /* display: flex; */
+    margin: 0;
+}
+
+.logo {
+    width: 57.86px;
+    height: 48.65px;
+    margin-top: 68.04px;
+    margin-left: 362.52px;
+}
+
+.heatexts{
+    display: flex;
+    flex-direction: column;
+    margin-top:  25px;
+
+
+
+}
+.header-title{
+    color: rgba(255, 255, 255, 1);
+    width: 380px;
+    height: 48px;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    margin: auto;
+
+}
+.header-text{
+
+    color:rgba(255, 255, 255, 1);
+    width: 372px;
+    height: 22px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+.navigation {
+    width: 1920px;
+    height: 60px;
+    background-color:rgba(26, 26, 26, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buton {
+    display: none;
+}
+.desktopbar {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
+ 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 530px;
+    background-color: rgba(42, 42, 42, 0.9);
+    position: relative;
+    
+   
+
+}
+.kahlogo {
+    width: 302px;
+    height: 253.96px;
+    color: rgba(86, 141, 15, 1);
+    position: relative;
+    z-index: -1;
+    
+   
+
+}
+
+.text-box {
+    width: auto;
+    height:auto;
+    position: absolute;
+    z-index: 20;
+    
+}
+.maintext {
+    font-size: 40px;
+    font-style: bold;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.smailmaintext {
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.9) ;
+    text-align: center;
+}
+
+.section {
+    width: 1920px;
+    height: 606px;
+    background-color:rgba(245, 245, 245, 1) ;
+    display: grid;
+    grid-template-columns:200px 200px 200px ;
+    grid-template-columns:324px 324px 324px ;
+
+}
+.end {
+    width: 1920px;
+    height: 90px;
+    background-color: rgba(26, 26, 26, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+}
