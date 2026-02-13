@@ -1,7 +1,6 @@
 body{
     padding: 3px;
-    width: 375px;
-    margin: auto;
+    
 
 }
 
@@ -11,7 +10,6 @@ body{
     background-color: rgba(255, 107, 26, 1);
     width: 375px;
     height: 130px;
-    /* display: flex; */
     margin: 0;
 
 }
@@ -41,12 +39,12 @@ body{
     align-items: center;
     margin: auto;
 
-
-
-
-
-
 }
+
+
+
+
+
 
 .header-text{
 
@@ -62,8 +60,8 @@ body{
     width: 375px;
     height: 71px;
     background-color:rgba(26, 26, 26, 1);
-    box-sizing: border-box;
-    position: absolute;
+    display: flex;
+    align-items: center;
 
 }
 .buton {
@@ -72,9 +70,9 @@ body{
     border-radius: 8px;
     background-color: rgba(255, 107, 26, 1);
     margin-left: 12px;
-    margin-top: 17px;
     display: flex;
     justify-content:space-around;
+    
     
     
 
@@ -86,7 +84,6 @@ body{
     width: 17px;
     height: 14px;
     margin-top: 11px;
-    /* margin-left: 1px; */
 
 }
 .manu {
@@ -101,41 +98,38 @@ body{
 
 }
 .main {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
     width: 375px;
     height: 377px;
     background-color: rgba(42, 42, 42, 0.9);
-    /* position: absolute; */
-
-
-
-
+    position: relative;
+    
 }
 .kahlogo {
     width: 151px;
     height: 126.98px;
     color: rgba(86, 141, 15, 1);
-
-}
-.klogo {
-    width: 151px;
-    height: 126.98px;
-    align-items: center;
-    position:relative;
-    top:125px;
-    left: 112px;
+    position: relative;
     z-index: -1;
-    
 
 }
+
 .text-box {
-    width: 375px;
-    height: 104px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 20;
+
 }
 .maintext {
     font-size: 24px;
     font-style: bold;
     color: rgba(255, 255, 255, 1);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
 }
@@ -186,6 +180,151 @@ p {
     margin-left: 24px;
     gap: 3px;
 }
+.desktopbar {
+    display: none;
 
+}
+.end {
+    width:373px ;
+    height: 90px;
+    background-color: rgba(26, 26, 26, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
     
+@media (min-width: 768px) {
+
+.main-header {
+    background-color: rgba(255, 107, 26, 1);
+    width: 1924px;
+    height: 200px;
+    /* display: flex; */
+    margin: 0;
+}
+
+.logo {
+    width: 57.86px;
+    height: 48.65px;
+    margin-top: 68.04px;
+    margin-left: 362.52px;
+}
+
+.heatexts{
+    display: flex;
+    flex-direction: column;
+    margin-top:  25px;
+
+
+
+}
+.header-title{
+    color: rgba(255, 255, 255, 1);
+    width: 380px;
+    height: 48px;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    margin: auto;
+
+}
+.header-text{
+
+    color:rgba(255, 255, 255, 1);
+    width: 372px;
+    height: 22px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+.navigation {
+    width: 1920px;
+    height: 60px;
+    background-color:rgba(26, 26, 26, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buton {
+    display: none;
+}
+.desktopbar {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
+ 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 530px;
+    background-color: rgba(42, 42, 42, 0.9);
+    position: relative;
+    
+   
+
+}
+.kahlogo {
+    width: 302px;
+    height: 253.96px;
+    color: rgba(86, 141, 15, 1);
+    position: relative;
+    z-index: -1;
+    
+   
+
+}
+
+.text-box {
+    width: auto;
+    height:auto;
+    position: absolute;
+    z-index: 20;
+    
+}
+.maintext {
+    font-size: 40px;
+    font-style: bold;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.smailmaintext {
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.9) ;
+    text-align: center;
+}
+
+.section {
+    width: 1920px;
+    height: 606px;
+    background-color:rgba(245, 245, 245, 1) ;
+    display: grid;
+    grid-template-columns:200px 200px 200px ;
+    grid-template-columns:324px 324px 324px ;
+
+}
+.end {
+    width: 1920px;
+    height: 90px;
+    background-color: rgba(26, 26, 26, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+}
